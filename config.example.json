@@ -1,0 +1,35 @@
+{
+  "workspace": "workspace",
+  "ffmpeg": "ffmpeg",
+  "device": "cuda",
+  "speech": {
+    "api_base": "http://127.0.0.1:9880",
+    "allow_remote": false,
+    "reference_audio": "datasets/reference.wav",
+    "reference_text": "请替换为参考录音对应的文字。",
+    "reference_language": "zh",
+    "text_language": "zh"
+  },
+  "msst": {
+    "root": "dependencies/msst",
+    "python": "dependencies/msst/env/python.exe",
+    "script": "inference.py",
+    "vocal_model_type": "mel_band_roformer",
+    "vocal_config": "configs/config_vocals_mel_band_roformer_kim.yaml",
+    "vocal_checkpoint": "pretrain/vocal_model.ckpt",
+    "karaoke_model_type": "bs_roformer",
+    "karaoke_config": "configs/config_karaoke.yaml",
+    "karaoke_checkpoint": "pretrain/karaoke_model.ckpt"
+  },
+  "rvc": {
+    "root": "dependencies/rvc",
+    "python": "dependencies/rvc/runtime/python.exe",
+    "model": "models/voice.pth",
+    "index": "models/voice.index"
+  },
+  "profiles": {
+    "fine": {"index_rate": 0.3, "protect": 0.33, "rms_mix_rate": 1.0, "semitones": 0, "half": false},
+    "quick": {"index_rate": 0.3, "protect": 0.33, "rms_mix_rate": 1.0, "semitones": 0, "half": false}
+  },
+  "mix": {"lead_lufs": -22, "backing_lufs": -25, "final_lufs": -20, "true_peak_db": -1.5}
+}

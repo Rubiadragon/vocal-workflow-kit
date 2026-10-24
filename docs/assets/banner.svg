@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Vocal Workflow Kit</title><desc id="desc">本地说话与唱歌工作流。训练、讲话、精唱、快速翻唱。</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1729"/><stop offset="1" stop-color="#122e3b"/></linearGradient><linearGradient id="wave"><stop stop-color="#73f1ce"/><stop offset="1" stop-color="#96a5ff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/><rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+<text x="64" y="73" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4" fill="#73f1ce">LOCAL VOICE · OPEN WORKFLOWS</text>
+<text x="60" y="153" font-family="Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2" fill="#f4f8ff">Vocal Workflow Kit</text>
+<text x="64" y="208" font-family="Arial,Microsoft YaHei,sans-serif" font-size="24" fill="#b5c8d5">把声音做成作品，把流程留给每个人。</text>
+<g fill="none" stroke="#375365"><rect x="64" y="260" width="103" height="34" rx="17"/><rect x="180" y="260" width="103" height="34" rx="17"/><rect x="296" y="260" width="103" height="34" rx="17"/><rect x="412" y="260" width="112" height="34" rx="17"/></g>
+<g font-family="Arial,Microsoft YaHei,sans-serif" font-size="14" fill="#d5e2eb" text-anchor="middle"><text x="115" y="282">音色训练</text><text x="231" y="282">文字说话</text><text x="347" y="282">精细翻唱</text><text x="468" y="282">快速翻唱</text></g>
+<g stroke="url(#wave)" stroke-width="9" stroke-linecap="round"><path d="M842 162v36m24-62v88m24-119v150m24-96v42m24-132v222m24-176v130m24-102v74m24-51v28m24-91v154m24-125v98m24-73v47"/></g>
+<circle cx="1102" cy="60" r="6" fill="#73f1ce"/><text x="1082" y="302" font-family="Arial,sans-serif" font-size="12" fill="#9fb5c5" text-anchor="end">SOURCE PREVIEW / 0.1</text>
+</svg>
